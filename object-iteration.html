@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>skeelUp_exercises</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            margin: 0 auto;
+            padding: 0px;
+            border: 0px;
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(187, 248, 43);
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        //Write a JavaScript program to loop through object:
+        // expected output: // "name: test" // "age: 21" // "country: Earth"
+
+        const objectName = {
+            name: 'test',
+            age: 21,
+            country: 'Earth'
+        };
+
+        for (const entry of Object.entries(objectName)) {
+            console.log(`"${entry[0]}: ${entry[1]}"`);
+        }
+    </script>
+</body>
+
+</html>
